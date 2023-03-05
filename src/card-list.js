@@ -69,9 +69,10 @@ export class CardList extends LitElement {
 
       .wrapper {
         width: 474px;
-        border: 2px solid black;
+        border: 5px solid black;
         /* display: inline-flex; */
         background-color: yellow;
+        margin-bottom: 20px;
       }
 
       .header {
@@ -79,7 +80,12 @@ export class CardList extends LitElement {
         font-weight: bold;
       }
 
-      .header h3,
+      .header h3{
+        margin: 10px;
+        font-size: 25px;
+      }
+
+
       .header h4 {
         margin: 10px;
         font-size: 20px;
